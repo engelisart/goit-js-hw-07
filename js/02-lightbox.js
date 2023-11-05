@@ -22,9 +22,3 @@ const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
 });
-gallery.addEventListener("click", onGalleryClick);
-
-function onGalleryClick(event) {
-  event.preventDefault();
-  const imgUrl = event.target.dataset.source;
-}
