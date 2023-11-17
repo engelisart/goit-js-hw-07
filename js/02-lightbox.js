@@ -14,7 +14,7 @@ galleryItems.forEach((galleryItem) => {
        alt="${galleryItem.description}" />
     </a>
  </li>`;
-
+ 
   gallery.innerHTML += item;
 });
 
